@@ -96,6 +96,8 @@ class _codeState extends State<code> {
                           i2=int.parse(c2);
 
                           i3=i2-i1;
+
+                          i2=int.parse(txtdate.text)+1;
                         });
                       },
                       child: Container(
@@ -165,7 +167,7 @@ class _codeState extends State<code> {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Text("${i2+i4}",
+                    Text("${i2}",
                     style: TextStyle(
                       fontSize: 35,
                       color: CupertinoColors.white,
